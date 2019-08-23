@@ -5,8 +5,6 @@ Alien:
   - ^Alien.*?Resurrection
   - ^Prometheus
   - ^Alien.*?Convenant
-Back to the Future:
-  - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?
 Child's Play:
   - ^Child's Play( [0-3])?$
   - Bride of Chucky
@@ -62,6 +60,10 @@ Christmas:
 The Conjuring:
   - The Conjuring
   - Annabelle
+Cornetto Trilogy:
+  - ^Shaun of the Dead$
+  - ^Hot Fuzz$
+  - ^The World.?s End$
 Die Hard:
   - Die Hard
 The Expendables:
@@ -125,10 +127,12 @@ James Bond:
   - Spectre
 Jason Bourne:
   - The Bourne Identity
-  - The Bourne Supremecy
+  - The Bourne Supremacy
   - The Bourne Ultimatum
   - The Bourne Legacy
   - Jason Bourne
+Jaws:
+  - Jaws( \d)?
 John Wick:
   - John Wick(.+?Chapter 2)?
   - John Wick(.+?Chapter 3)?
@@ -169,6 +173,22 @@ Pirates of the Caribbean:
   - Pirates of the Caribbean
 Pitch Perfect:
   - ^Pitch Perfect( [0-3])?$
+Pixar:
+  - Toy Story( \d)?
+  - A Bug's Life
+  - Monsters, Inc
+  - Finding Nemo
+  - ^The Incredibles( \d)?$
+  - ^Cars( \d)?$
+  - Ratatouille
+  - WALL-E
+  - ^UP$
+  - Brave
+  - Monsters University
+  - Inside Out
+  - The Good Dinosaur
+  - Finding Dory
+  - Coco
 Planet of the Apes:
   - Rise of the Planet of the Apes
   - Dawn of the Planet of the Apes
@@ -201,10 +221,6 @@ Star Wars:
 The Dark Knight:
   - Batman Begins
   - The Dark Knight(\sRises)?
-Three Flavours Cornetto Trilogy:
-  - ^Shaun of the Dead$
-  - ^Hot Fuzz$
-  - ^The World.?s End$
 Tolkien:
   - ^The Lord of The Rings.+?The Fellowship of the Ring$
   - ^The Lord of The Rings.+?The Two Towers$
