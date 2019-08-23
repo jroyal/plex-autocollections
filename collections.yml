@@ -1,23 +1,3 @@
-Marvel Universe:
-  - The Incredible Hulk
-  - ^Iron Man( [0-3])?$
-  - ^Thor$
-  - Thor.*?The Dark World
-  - Thor.*?Ragnarok
-  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
-  - Captain America(.+?The First Avenger)?
-  - Captain America.+?Winter Soldier
-  - Captain America.+?Civil War
-  - ^Spider.*?man.+?Homecoming$
-  - ^Doctor Strange$
-  - ^Deadpool$
-  - The Avengers
-  - Avengers+?Age of Ultron
-  - Doctor Strange
-  - Black Panther
-  - Avengers.+?Infinity War
-  - Ant-Man
-  - Ant-Man and the Wasp
 Alien:
   - ^Alien$
   - ^Aliens$
@@ -25,125 +5,14 @@ Alien:
   - ^Alien.*?Resurrection
   - ^Prometheus
   - ^Alien.*?Convenant
-Harry Potter:
-  - Harry Potter and the (Sorcerer.*?s|Philosopher.*?s) Stone
-  - Harry Potter and the Chamber of Secrets
-  - Harry Potter and the Prisoner of Azkaban
-  - Harry Potter and the Goblet of Fire
-  - Harry Potter and the Order of the Phoenix
-  - Harry Potter and the Half.*?Blood Prince
-  - Harry Potter and the Deathly Hallows
-  - Fantastic Beasts and Where to Find Them
-  - Fantastic Beasts.+?The Crimes of Grindelwald
-Star Wars:
-  - ^Star Wars(.+?A New Hope|.+?Episode (?:4|IV))?$
-  - ^(Star Wars.+?)?The Empire Strikes Back
-  - ^(Star Wars.+?)?Return of the Jedi
-  - ^Star Wars.*?Phantom Menace
-  - ^Star Wars.*?Attack of the Clones
-  - ^Star Wars.*?Revenge of the Sith
-  - ^Star Wars.*?Force Awakens
-  - ^(Star Wars.*?)?Rogue One$
-  - ^Star Wars.*?The Last Jedi
-  - ^Solo.+?A Star Wars Story$
-Indiana Jones:
-  - Raiders of the Lost Ark
-  - Temple of Doom
-  - The Last Crusade
-  - Kingdom of the Crystal Skull
-The Dark Knight:
-  - Batman Begins
-  - The Dark Knight(\sRises)?
-James Bond:
-  - Dr\. No
-  - From Russia with Love
-  - Goldfinger
-  - Thunderball
-  - Casino Royale
-  - You Only Live Twice
-  - On Her Majesty's Secret Service
-  - Diamonds are Forever
-  - Live and Let Die
-  - The Man with the Golden Gun
-  - The Spy Who Loved Me
-  - Moonraker
-  - For Your Eyes Only
-  - Octopussy
-  - Never Say Never Again
-  - A View to a Kill
-  - The Living Daylights
-  - Licence to Kill
-  - GoldenEye
-  - Tomorrow Never Dies
-  - The World is Not Enough
-  - Die Another Day
-  - Quantum of Solace
-  - Skyfall
-  - Spectre
-John Wick:
-  - John Wick(.+?Chapter 2)?
-  - John Wick(.+?Chapter 3)?
-Planet of the Apes:
-  - Rise of the Planet of the Apes
-  - Dawn of the Planet of the Apes
-  - War for the Planet of the Apes
-Three Flavours Cornetto Trilogy:
-  - ^Shaun of the Dead$
-  - ^Hot Fuzz$
-  - ^The World.?s End$
-Tolkien:
-  - ^The Lord of The Rings.+?The Fellowship of the Ring$
-  - ^The Lord of The Rings.+?The Two Towers$
-  - ^The Lord of The Rings.+?The Return of the King$
-  - ^The Hobbit.+?An Unexpected Journey$
-  - ^The Hobbit.+?The Desolation Of Smaug
-  - ^The Hobbit.+?The Battle Of The Five Armies$
-The Lord of the Rings:
-  - ^The Lord of The Rings.+?The Fellowship of the Ring$
-  - ^The Lord of The Rings.+?The Two Towers$
-  - ^The Lord of The Rings.+?The Return of the King$
-The Hobbit:
-  - ^The Hobbit.+?An Unexpected Journey$
-  - ^The Hobbit.+?The Desolation Of Smaug
-  - ^The Hobbit.+?The Battle Of The Five Armies$
 Back to the Future:
-  - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
-Rocky:
-  - ^Rocky(( I{0,3}V?)| Balboa)?$
-  - ^Creed( II)?$
-Oceans Series:
-  - Ocean's Eleven
-  - Ocean's Twelve
-  - Ocean's Thirteen
-  - Ocean's Eight
-Scary Movie:
-  - Scary Movie
-Die Hard:
-  - Die Hard
-The Conjuring:
-  - The Conjuring
-  - Annabelle
+  - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?
 Child's Play:
   - ^Child's Play( [0-3])?$
   - Bride of Chucky
   - Seed of Chucky
   - Curse of Chucky
   - Cult of Chucky
-The Fast and the Furious:
-  - The Fast and the Furious
-  - 2 Fast 2 Furious
-  - Fast & Furious
-  - Fast Five
-  - Furious 7
-  - The Fate of the Furious
-  - The Fast And The Furious.+?Tokyo Drift
-The Exorcist:
-  - The Exorcist
-  - ^Exorcist.+?The Beginning$
-  - Dominion.+?Prequel to the Exorcist
-  - ^Legion$
-Pirates of the Caribbean:
-  - Pirates of the Caribbean
 Christmas:
   - Bad Santa( 2)?
   - Home Alone(.+?Lost in New York)?
@@ -190,39 +59,123 @@ Christmas:
   - Where the .+? is Santa
   - White Christmas
   - ^Die Hard$
+The Conjuring:
+  - The Conjuring
+  - Annabelle
+Die Hard:
+  - Die Hard
 The Expendables:
   - ^The Expendables( [0-3])?$
-Transformers:
-  - Transformers
-  - Transformers.+?Revenge of the Fallen
-  - Transformers.+?Dark of the Moon
-  - Transformers.+?Age of Extinction
-  - Transformers.+?The Last Knight
-  - Bumblebee
-The Hunger Games:
-  - The Hunger Games
-X-Men:
-  - X-Men
-  - X2
-  - X-Men.+?Apocalypse
-  - X-Men.+?Days of Future Past
-  - X-Men.+?First Class
-  - X-Men.+?The Last Stand
-  - X-Men.+?Days of Future Past
-Pitch Perfect:
-  - ^Pitch Perfect( [0-3])?$
+The Fast and the Furious:
+  - The Fast and the Furious
+  - 2 Fast 2 Furious
+  - Fast & Furious
+  - Fast Five
+  - Furious 7
+  - The Fate of the Furious
+  - The Fast And The Furious.+?Tokyo Drift
+Harry Potter:
+  - Harry Potter and the (Sorcerer.*?s|Philosopher.*?s) Stone
+  - Harry Potter and the Chamber of Secrets
+  - Harry Potter and the Prisoner of Azkaban
+  - Harry Potter and the Goblet of Fire
+  - Harry Potter and the Order of the Phoenix
+  - Harry Potter and the Half.*?Blood Prince
+  - Harry Potter and the Deathly Hallows
+  - Fantastic Beasts and Where to Find Them
+  - Fantastic Beasts.+?The Crimes of Grindelwald
+The Hobbit:
+  - ^The Hobbit.+?An Unexpected Journey$
+  - ^The Hobbit.+?The Desolation Of Smaug
+  - ^The Hobbit.+?The Battle Of The Five Armies$
 How to Train Your Dragon:
   - How to Your Dragon( [0-3]?)$
+The Hunger Games:
+  - The Hunger Games
+Indiana Jones:
+  - Raiders of the Lost Ark
+  - Temple of Doom
+  - The Last Crusade
+  - Kingdom of the Crystal Skull
+James Bond:
+  - Dr\. No
+  - From Russia with Love
+  - Goldfinger
+  - Thunderball
+  - Casino Royale
+  - You Only Live Twice
+  - On Her Majesty's Secret Service
+  - Diamonds are Forever
+  - Live and Let Die
+  - The Man with the Golden Gun
+  - The Spy Who Loved Me
+  - Moonraker
+  - For Your Eyes Only
+  - Octopussy
+  - Never Say Never Again
+  - A View to a Kill
+  - The Living Daylights
+  - Licence to Kill
+  - GoldenEye
+  - Tomorrow Never Dies
+  - The World is Not Enough
+  - Die Another Day
+  - Quantum of Solace
+  - Skyfall
+  - Spectre
 Jason Bourne:
   - The Bourne Identity
   - The Bourne Supremecy
   - The Bourne Ultimatum
   - The Bourne Legacy
   - Jason Bourne
+John Wick:
+  - John Wick(.+?Chapter 2)?
+  - John Wick(.+?Chapter 3)?
 LEGO:
   - The Lego Movie
   - The Lego Movies 2
   - The Lego Batman Movie
+The Lord of the Rings:
+  - ^The Lord of The Rings.+?The Fellowship of the Ring$
+  - ^The Lord of The Rings.+?The Two Towers$
+  - ^The Lord of The Rings.+?The Return of the King$
+Marvel Universe:
+  - The Incredible Hulk
+  - ^Iron Man( [0-3])?$
+  - ^Thor$
+  - Thor.*?The Dark World
+  - Thor.*?Ragnarok
+  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
+  - Captain America(.+?The First Avenger)?
+  - Captain America.+?Winter Soldier
+  - Captain America.+?Civil War
+  - ^Spider.*?man.+?Homecoming$
+  - ^Doctor Strange$
+  - ^Deadpool$
+  - The Avengers
+  - Avengers+?Age of Ultron
+  - Doctor Strange
+  - Black Panther
+  - Avengers.+?Infinity War
+  - Ant-Man
+  - Ant-Man and the Wasp
+Oceans Series:
+  - Ocean's Eleven
+  - Ocean's Twelve
+  - Ocean's Thirteen
+  - Ocean's Eight
+Pirates of the Caribbean:
+  - Pirates of the Caribbean
+Pitch Perfect:
+  - ^Pitch Perfect( [0-3])?$
+Planet of the Apes:
+  - Rise of the Planet of the Apes
+  - Dawn of the Planet of the Apes
+  - War for the Planet of the Apes
+Rocky:
+  - ^Rocky(( I{0,3}V?)| Balboa)?$
+  - ^Creed( II)?$
 Saw:
   - ^Saw$
   - Saw II
@@ -232,3 +185,45 @@ Saw:
   - Saw VI
   - Saw.+?The Final Chapter
   - Jigsaw
+Scary Movie:
+  - Scary Movie
+Star Wars:
+  - ^Star Wars(.+?A New Hope|.+?Episode (?:4|IV))?$
+  - ^(Star Wars.+?)?The Empire Strikes Back
+  - ^(Star Wars.+?)?Return of the Jedi
+  - ^Star Wars.*?Phantom Menace
+  - ^Star Wars.*?Attack of the Clones
+  - ^Star Wars.*?Revenge of the Sith
+  - ^Star Wars.*?Force Awakens
+  - ^(Star Wars.*?)?Rogue One$
+  - ^Star Wars.*?The Last Jedi
+  - ^Solo.+?A Star Wars Story$
+The Dark Knight:
+  - Batman Begins
+  - The Dark Knight(\sRises)?
+Three Flavours Cornetto Trilogy:
+  - ^Shaun of the Dead$
+  - ^Hot Fuzz$
+  - ^The World.?s End$
+Tolkien:
+  - ^The Lord of The Rings.+?The Fellowship of the Ring$
+  - ^The Lord of The Rings.+?The Two Towers$
+  - ^The Lord of The Rings.+?The Return of the King$
+  - ^The Hobbit.+?An Unexpected Journey$
+  - ^The Hobbit.+?The Desolation Of Smaug
+  - ^The Hobbit.+?The Battle Of The Five Armies$
+Transformers:
+  - Transformers
+  - Transformers.+?Revenge of the Fallen
+  - Transformers.+?Dark of the Moon
+  - Transformers.+?Age of Extinction
+  - Transformers.+?The Last Knight
+  - Bumblebee
+X-Men:
+  - X-Men
+  - X2
+  - X-Men.+?Apocalypse
+  - X-Men.+?Days of Future Past
+  - X-Men.+?First Class
+  - X-Men.+?The Last Stand
+  - X-Men.+?Days of Future Past
