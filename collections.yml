@@ -1,24 +1,13 @@
-Iron Man: &iron_man
+Marvel Universe:
+  - The Incredible Hulk
   - ^Iron Man( [0-3])?$
-Thor: &thor
   - ^Thor$
   - Thor.*?The Dark World
   - Thor.*?Ragnarok
-Guardians of the Galaxy: &guardians_of_the_galaxy
   - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
-Captain America: &captain_america
   - Captain America(.+?The First Avenger)?
   - Captain America.+?Winter Soldier
   - Captain America.+?Civil War
-Ant-Man: &antman
-  - Ant-Man
-  - Ant-Man and the Wasp
-Marvel Universe:
-  - The Incredible Hulk
-  - *iron_man
-  - *thor
-  - *guardians_of_the_galaxy
-  - *captain_america
   - ^Spider.*?man.+?Homecoming$
   - ^Doctor Strange$
   - ^Deadpool$
@@ -27,7 +16,8 @@ Marvel Universe:
   - Doctor Strange
   - Black Panther
   - Avengers.+?Infinity War
-  - *antman
+  - Ant-Man
+  - Ant-Man and the Wasp
 Alien:
   - ^Alien$
   - ^Aliens$
@@ -43,6 +33,8 @@ Harry Potter:
   - Harry Potter and the Order of the Phoenix
   - Harry Potter and the Half.*?Blood Prince
   - Harry Potter and the Deathly Hallows
+  - Fantastic Beasts and Where to Find Them
+  - Fantastic Beasts.+?The Crimes of Grindelwald
 Star Wars:
   - ^Star Wars(.+?A New Hope|.+?Episode (?:4|IV))?$
   - ^(Star Wars.+?)?The Empire Strikes Back
@@ -88,20 +80,9 @@ James Bond:
   - Quantum of Solace
   - Skyfall
   - Spectre
-American Pie:
-  - ^American Pie( 2)?$
-  - American Reunion
-  - American Wedding
-Cars:
-  - ^Cars(\s\d)?$
 John Wick:
   - John Wick(.+?Chapter 2)?
   - John Wick(.+?Chapter 3)?
-Now You See Me:
-  - Now You See Me( 2)?
-Kingsman:
-  - Kingsman.+? The Golden Circle
-  - Kingsman.+? The Secret Service
 Planet of the Apes:
   - Rise of the Planet of the Apes
   - Dawn of the Planet of the Apes
@@ -130,12 +111,6 @@ Back to the Future:
 Rocky:
   - ^Rocky(( I{0,3}V?)| Balboa)?$
   - ^Creed( II)?$
-Final Destination:
-  - Final Destination
-John Mulaney:
-  - John Mulaney
-Bo Burnham:
-  - Bo Burnham
 Oceans Series:
   - Ocean's Eleven
   - Ocean's Twelve
@@ -145,34 +120,15 @@ Scary Movie:
   - Scary Movie
 Die Hard:
   - Die Hard
-Bridget Jones:
-  - Bridget Jones
-Before...:
-  - Before Sunrise
-  - Before Sunset
-  - Before Midnight
-Alice in Wonderland:
-  - Alice in Wonderland {{2010}}
-  - Alice Through the Looking Glass
-Annabelle:
-  - Annabelle
 The Conjuring:
   - The Conjuring
+  - Annabelle
 Child's Play:
   - ^Child's Play( [0-3])?$
   - Bride of Chucky
   - Seed of Chucky
   - Curse of Chucky
   - Cult of Chucky
-Fantastic Beasts:
-  - Fantastic Beasts and Where to Find Them
-  - Fantastic Beasts.+?The Crimes of Grindelwald
-Independence Day:
-  - Independence Day
-Pacific Rim:
-  - Pacific Rim
-Resident Evil:
-  - Resident Evil
 The Fast and the Furious:
   - The Fast and the Furious
   - 2 Fast 2 Furious
@@ -181,25 +137,6 @@ The Fast and the Furious:
   - Furious 7
   - The Fate of the Furious
   - The Fast And The Furious.+?Tokyo Drift
-The Amityville Collection:
-  - The Amityville Horror
-  - Amityville II.+?The Possession
-  - Amityville 3-D
-  - Amityville.+?The Evil Escapes
-  - The Amityville Curse
-  - Amityville 1992.+?It's About Time
-  - Amityville.+?A New Generation
-  - Amityville.+?Dollhouse
-  - The Amityville Haunting
-  - The Amityville Asylum
-  - Amityville Death House
-  - The Amityville Playhouse
-  - Amityville.+?Vanishing Point
-  - The Amityville Terror
-  - The Amityville Legacy
-  - Amityville.+?No Escape
-  - Amityville Exorcism
-  - Amityville.+?The Awakening
 The Exorcist:
   - The Exorcist
   - ^Exorcist.+?The Beginning$
@@ -207,15 +144,9 @@ The Exorcist:
   - ^Legion$
 Pirates of the Caribbean:
   - Pirates of the Caribbean
-Hangover:
-  - The Hangover
-Home Alone: &home_alone
-  - Home Alone(.+?Lost in New York)?
-Bad Santa: &bad_santa
-  - Bad Santa( 2)?
 Christmas:
-  - *bad_santa
-  - *home_alone
+  - Bad Santa( 2)?
+  - Home Alone(.+?Lost in New York)?
   - A Bad Moms Christmas
   - A Charlie Brown Christmas
   - A Christmas Carol
@@ -261,8 +192,6 @@ Christmas:
   - ^Die Hard$
 The Expendables:
   - ^The Expendables( [0-3])?$
-Toy Story:
-  - ^Toy Story( [0-3])?$
 Transformers:
   - Transformers
   - Transformers.+?Revenge of the Fallen
@@ -282,12 +211,6 @@ X-Men:
   - X-Men.+?Days of Future Past
 Pitch Perfect:
   - ^Pitch Perfect( [0-3])?$
-Anchorman:
-  - Anchorman
-Despicable Me:
-  - Despicable Me( [0-3])?$
-The Incredibles:
-  - The Incredibles( [0-2])?$
 How to Train Your Dragon:
   - How to Your Dragon( [0-3]?)$
 Jason Bourne:
@@ -296,20 +219,10 @@ Jason Bourne:
   - The Bourne Ultimatum
   - The Bourne Legacy
   - Jason Bourne
-Kick-Ass:
-  - Kick-Ass( [0-2])?$
-British Gangster:
-  - Lock, Stock and Two Smoking Barrels
-  - Snatch
-  - Layer Cake
 LEGO:
   - The Lego Movie
   - The Lego Movies 2
   - The Lego Batman Movie
-Supertroopers:
-  - Supertroopers( [0-2])?$
-Trainspotting:
-  - Trainspotting( [0-2])?$
 Saw:
   - ^Saw$
   - Saw II
@@ -319,7 +232,3 @@ Saw:
   - Saw VI
   - Saw.+?The Final Chapter
   - Jigsaw
-Divergent:
-  - ^Divergent$
-  - ^(The Divergent Series.*?)?Insurgent$
-  - ^(The Divergent Series.*?)?Allegiant$

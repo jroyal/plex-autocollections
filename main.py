@@ -1,21 +1,15 @@
 #!/usr/bin/env python
-import re, sys, getpass
+import os, re, sys, getpass
 import plexapi.utils
 from retry import retry
-from plexapi.server import PlexServer, CONFIG
+from plexapi.server import PlexServer
 from plexapi.myplex import MyPlexAccount
 from plexapi.exceptions import BadRequest
 import yaml
 
 ## Edit ##
-PLEX_URL = ''
-PLEX_TOKEN = ''
-
-try:
-    PLEX_URL = CONFIG.data['auth'].get('server_baseurl', PLEX_URL)
-    PLEX_TOKEN = CONFIG.data['auth'].get('server_token', PLEX_TOKEN)
-except:
-    print("Failed loading in config file.")
+PLEX_URL = os.getenv('PLEX_URL')
+PLEX_TOKEN = os.getenv('PLEX_TOKEN')
 
 class Plex():
     def __init__(self):
@@ -34,6 +28,9 @@ class Plex():
         password = getpass.getpass()
 
         return MyPlexAccount(username, password)
+
+    def delete_collection(self, collection_id):
+        self.server.query('/library/metadata/{}'.format(collection_id), method=plex.server._session.delete)
 
     def get_account_server(self, account):
         servers = [ _ for _ in account.resources() if _.product == 'Plex Media Server' ]
@@ -95,3 +92,9 @@ if __name__ == "__main__":
     for medium in plex.media:
         for collection, movies in collections.items():
             process_movies(movies, medium, collection)
+
+    # Remove all the collections with less than 2 movies
+    collections = plex.section.collection()
+    for collection in collections:
+        if collection.childCount <= 2:
+            plex.delete_collection(collection.ratingKey)
